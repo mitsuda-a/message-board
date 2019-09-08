@@ -27,6 +27,8 @@
     </table>
 @endif
 
+{{ $messages->links('pagination::bootstrap-4') }}
+
 {!! link_to_route('messages.create', '新規メッセージ', [], ['class' => 'btn btn-
 primary']) !!}
 
